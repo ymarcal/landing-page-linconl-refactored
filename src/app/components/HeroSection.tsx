@@ -1,5 +1,5 @@
-import heroImage from "figma:asset/d96bdb2c0eabc63d53c8e52be65be0138b2d49de.png";
-import bgImage from "figma:asset/0e490af96632d3edf00819e1544d84d37cddbd5e.png";
+import heroImage from "./figma/d96bdb2c0eabc63d53c8e52be65be0138b2d49de.png";
+import bgImage from "./figma/0e490af96632d3edf00819e1544d84d37cddbd5e.png";
 import { useState } from 'react';
 
 export function HeroSection() {
