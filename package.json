@@ -1,12 +1,9 @@
 {
-  "homepage": "https://ymarcal.github.io/landing-page-linconl-refactored",
   "name": "@figma/my-make-file",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "dev": "vite"
   },
