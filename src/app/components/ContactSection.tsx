@@ -1,4 +1,6 @@
 import { Phone, Mail, Facebook, Twitter, Instagram, Linkedin} from 'lucide-react';
+import doctoraliaLogo from '../../assets/doctoralia-logo.svg';
+
 
 export function ContactSection() {
   return (
@@ -46,8 +48,12 @@ export function ContactSection() {
                 <a href="https://www.instagram.com/psi.linconl/" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300">
                   <Instagram size={24} />
                 </a>
-                <a href="https://www.linkedin.com/in/linconl-mar%C3%A7al-8475bb292/" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300">
-                  <Linkedin size={24} />
+                <a href="https://www.doctoralia.com.br/medico/marcal-linconl-123456" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300 flex items-center justify-center">
+                  <img 
+                    src={doctoraliaLogo} 
+                    alt="Doctoralia" 
+                    className="w-6 h-6 brightness-0 invert"
+                  />
                 </a>
               </div>
             </div>
