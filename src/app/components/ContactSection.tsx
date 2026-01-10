@@ -48,7 +48,7 @@ export function ContactSection() {
                 <a href="https://www.instagram.com/psi.linconl/" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300">
                   <Instagram size={24} />
                 </a>
-                <a href="https://www.doctoralia.com.br/medico/marcal-linconl-123456" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300 flex items-center justify-center">
+                <a href="https://www.doctoralia.com.br/linconl-marcal" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300 flex items-center justify-center">
                   <img 
                     src={doctoraliaLogo} 
                     alt="Doctoralia" 
