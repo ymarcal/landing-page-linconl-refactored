@@ -37,7 +37,7 @@ export function ContactSection() {
             </div>
             
             <div className="border-t border-gray-200 pt-8">
-              <h3 className="text-brand-dark mb-6 text-center">Redes Sociais</h3>
+              <h3 className="text-brand-dark mb-6 text-center">Entre em contato</h3>
               <div className="flex justify-center gap-4 mb-10">
                 {/* <a href="#" className="bg-gradient-to-br from-brand-medium-dark to-brand-medium text-white p-4 rounded-xl hover:from-brand-dark hover:to-brand-medium-dark transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 duration-300">
                   <Facebook size={24} />
