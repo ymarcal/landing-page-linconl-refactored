@@ -127,6 +127,23 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+.block {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.block.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Quando sair da viewport, remove a animação para permitir reanimação */
+.block:not(.animate) {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
