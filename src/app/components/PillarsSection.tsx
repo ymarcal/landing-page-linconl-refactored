@@ -1,6 +1,8 @@
 import { Brain, Heart, Users } from 'lucide-react';
+import { useInView } from './ui/use-in-view';
 
 export function PillarsSection() {
+  const { ref, isInView } = useInView({ threshold: 0.3 });
   const pillars = [
     {
       icon: Brain,
@@ -28,12 +30,13 @@ export function PillarsSection() {
       </div>
       
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
-        <div className="text-center mb-16 max-w-3xl mx-auto">
-          <div className="inline-block w-16 h-1 bg-gradient-to-r from-brand-medium-dark to-brand-medium mb-6"></div>
-          <h2 className="mb-4 text-gray-900 text-3xl md:text-4xl">Pilares para o seu Bem-Estar</h2>
-          <p className="text-gray-600 text-lg">Descubra como a terapia pode transformar sua vida através destes três pilares fundamentais</p>
+        <div ref={ref} className={`block ${isInView ? 'animate' : ''}`}>
+          <div className="text-center mb-16 max-w-3xl mx-auto">
+            <div className="inline-block w-16 h-1 bg-gradient-to-r from-brand-medium-dark to-brand-medium mb-6"></div>
+            <h2 className="mb-4 text-gray-900 text-3xl md:text-4xl">Pilares para o seu Bem-Estar</h2>
+            <p className="text-gray-600 text-lg">Descubra como a terapia pode transformar sua vida através destes três pilares fundamentais</p>
+          </div>
         </div>
-        
         <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {pillars.map((pillar, index) => (
             <div key={index} className="bg-white p-10 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-brand-medium group hover:-translate-y-1">
