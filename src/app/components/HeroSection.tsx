@@ -33,22 +33,18 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
-          <div ref={ref} className={`block ${isInView ? 'animate' : ''}`}>
-            <div className="order-2 md:order-1">
-              <div className="relative overflow-hidden rounded-3xl">
-                <div className="absolute -inset-4 bg-gradient-to-br from-brand-medium/30 to-brand-light/20 rounded-3xl blur-2xl"></div>
-                <img
-                  src={heroImage}
-                  alt="Linconl Marçal - Psicólogo"
-                  className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto object-cover aspect-square ring-1 ring-brand-dark/5 transition-transform duration-500 hover:scale-110"
-                />
-              </div>
+          <div ref={ref} className={`order-2 md:order-1 ${isInView ? 'animate' : ''}`}>
+            <div className={`relative w-full max-w-md mx-auto block ${isInView ? 'animate' : ''}`}>
+              <div className="absolute inset-0 bg-brand-dark rounded-3xl translate-x-[-16px] translate-y-4"></div>
+              <img
+                src={heroImage}
+                alt="Linconl Marçal - Psicólogo"
+                className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto object-cover aspect-square ring-1 ring-brand-dark/5 transition-transform duration-500 hover:scale-110"
+              />
             </div>
           </div>
 
-          <div ref={ref} className={`block ${isInView ? 'animate' : ''}`}>
-          
-            <div className="order-1 md:order-2">
+          <div ref={ref} className={`order-1 md:order-2 block ${isInView ? 'animate' : ''}`}>
               <div className="inline-block px-4 py-2 bg-brand-dark/50 rounded-full mb-6">
                 <span className="text-white text-sm font-medium">
                   Atendimento Online
@@ -86,7 +82,6 @@ export function HeroSection() {
                   Saiba Mais
                 </button>
               </div>
-            </div>
           </div>
         </div>
       </div>
