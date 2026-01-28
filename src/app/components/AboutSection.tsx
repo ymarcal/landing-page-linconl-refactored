@@ -10,35 +10,6 @@ export function AboutSection() {
             <p className="mb-6 text-gray-700 text-lg leading-relaxed">
               Utilizo, de forma integrativa, a Terapia Cognitivo-Comportamental (TCC), uma abordagem focada em entender seus padrões de pensamento para desenvolver novas estratégias e alcançar seus objetivos, com ferramentas práticas e foco em metas claras e desafios atuais. Juntamente, com a Terapia de Aceitação e Compromisso (ACT), abordagem considerada uma "terceira onda" da TCC, e que aprofunda conceitos como aceitação, mindfulness e valores pessoais. 
             </p>
-            
-            {/* <p className="mb-8 text-gray-800 font-medium">Minhas principais áreas de atuação:</p>
-            
-            <ul className="space-y-4">
-              <li className="flex items-start gap-3 group">
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center mt-1 group-hover:bg-teal-200 transition-colors">
-                  <span className="w-2 h-2 bg-teal-700 rounded-full"></span>
-                </span>
-                <span className="text-gray-700 text-lg">Terapia individual para adultos e adolescentes</span>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center mt-1 group-hover:bg-teal-200 transition-colors">
-                  <span className="w-2 h-2 bg-teal-700 rounded-full"></span>
-                </span>
-                <span className="text-gray-700 text-lg">Ansiedade, depressão e questões emocionais</span>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center mt-1 group-hover:bg-teal-200 transition-colors">
-                  <span className="w-2 h-2 bg-teal-700 rounded-full"></span>
-                </span>
-                <span className="text-gray-700 text-lg">Autoconhecimento e desenvolvimento pessoal</span>
-              </li>
-              <li className="flex items-start gap-3 group">
-                <span className="flex-shrink-0 w-6 h-6 bg-teal-100 rounded-full flex items-center justify-center mt-1 group-hover:bg-teal-200 transition-colors">
-                  <span className="w-2 h-2 bg-teal-700 rounded-full"></span>
-                </span>
-                <span className="text-gray-700 text-lg">Relacionamentos e questões familiares</span>
-              </li>
-            </ul> */}
           </div>
           
           <div className="relative">

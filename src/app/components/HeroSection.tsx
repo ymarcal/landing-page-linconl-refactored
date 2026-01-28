@@ -32,8 +32,8 @@ export function HeroSection() {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           <div className="order-2 md:order-1">
-            <div className="relative overflow-hidden rounded-3xl">
-              <div className="absolute -inset-4 bg-gradient-to-br from-brand-medium/30 to-brand-light/20 rounded-3xl blur-2xl"></div>
+            <div className="relative w-full max-w-md mx-auto">
+              <div className="absolute inset-0 bg-brand-dark rounded-3xl translate-x-[-16px] translate-y-4"></div>
               <img
                 src={heroImage}
                 alt="Linconl Marçal - Psicólogo"
