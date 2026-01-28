@@ -1,6 +1,6 @@
 export function AboutSection() {
   return (
-    <section id="atuacoes" className="py-20 md:py-32 bg-white">
+    <section id="atuacoes" className="py-25 md:py-32 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-7xl mx-auto">
           <div className="text-gray-900">

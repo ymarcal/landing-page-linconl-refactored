@@ -1,6 +1,6 @@
 export function ServicesSection() {
   return (
-    <section id = 'terapia-online' className="py-20 md:py-32 bg-white">
+    <section id = 'terapia-online' className="py-25 md:py-32 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-7xl mx-auto">
           <div className="relative order-2 md:order-1">

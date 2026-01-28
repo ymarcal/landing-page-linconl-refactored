@@ -4,7 +4,7 @@ import doctoraliaLogo from '../../assets/doctoralia-logo.svg';
 
 export function ContactSection() {
   return (
-    <section id="contato" className="py-20 md:py-32 bg-gradient-to-br from-gray-50 to-white">
+    <section id="contato" className="py-25 md:py-32 bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
