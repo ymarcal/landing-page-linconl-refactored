@@ -12,22 +12,22 @@ export default function App() {
     <div className="h-screen overflow-y-scroll snap-y snap-mandatory">
       <Header />
       <main>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <HeroSection />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <AboutSection />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <PillarsSection />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <ServicesSection />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <TestimonialsSection />
         </div>
-        <div className="snap-start snap-always">
+        <div className="snap-start snap-proximity md:snap-always">
           <ContactSection />
           <Footer />
         </div>

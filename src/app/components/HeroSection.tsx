@@ -17,7 +17,7 @@ export function HeroSection() {
   return (
     <section
       id="inicio"
-      className="relative bg-gradient-to-br from-brand-light/20 via-white to-brand-light/10 py-20 md:py-32 overflow-hidden"
+      className="relative bg-gradient-to-br from-brand-light/20 via-white to-brand-light/10 py-25 md:py-32 overflow-hidden"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
