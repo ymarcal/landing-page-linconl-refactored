@@ -33,7 +33,7 @@ export function HeroSection() {
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           <div className="order-2 md:order-1">
             <div className="relative w-full max-w-md mx-auto">
-              <div className="absolute inset-0 bg-brand-dark rounded-3xl translate-x-[-16px] translate-y-4"></div>
+              <div className="absolute inset-0 bg-brand-dark rounded-3xl translate-x-[-10px] translate-y-4 md:translate-x-[-16px]"></div>
               <img
                 src={heroImage}
                 alt="Linconl Marçal - Psicólogo"
