@@ -193,3 +193,13 @@
     line-height: 1.5;
   }
 }
+
+/* Hero section background position: center by default, shifted left on mobile */
+.hero-bg {
+  background-position: center;
+}
+@media (max-width: 767px) {
+  .hero-bg {
+    background-position: 60% center;
+  }
+}
