@@ -16,7 +16,7 @@ export function Footer() {
             
             <div className="text-center md:text-right">
               <p className="text-gray-300">
-                © 2025 Linconl Marçal - Psicólogo
+                © 2026 Linconl Marçal - Psicólogo
               </p>
               <p className="text-gray-400 text-sm mt-1">
                 CRP 04/72628 | Todos os direitos reservados
