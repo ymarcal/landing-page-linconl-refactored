@@ -1,5 +1,4 @@
-// import onlineImage from "./figma/lincoln-desenho.png";
-import onlineImage from "./figma/trace.svg";
+import onlineImage from "./figma/lincoln-desenho(1).png";
 
 export function ServicesSection() {
   return (
