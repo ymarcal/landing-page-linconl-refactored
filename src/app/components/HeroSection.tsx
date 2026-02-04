@@ -38,7 +38,7 @@ export function HeroSection() {
               <img
                 src={heroImage}
                 alt="Linconl Marçal - Psicólogo"
-                className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto object-cover aspect-square ring-1 ring-brand-dark/5 transition-transform duration-500 hover:scale-110"
+                className="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto h-auto ring-1 ring-brand-dark/5 transition-transform duration-500 hover:scale-110"
               />
             </div>
           </div>
