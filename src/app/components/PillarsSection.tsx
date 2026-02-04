@@ -20,14 +20,14 @@ export function PillarsSection() {
   ];
 
   return (
-    <section id="beneficios" className="py-25 md:py-32 bg-gradient-to-br from-gray-50 to-brand-light/20 relative overflow-hidden">
+    <section id="beneficios" className="h-full bg-gradient-to-br from-gray-50 to-brand-light/20 relative overflow-hidden flex items-center">
       {/* Decorative background */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-4xl">
         <div className="absolute top-0 right-0 w-72 h-72 bg-brand-medium/20 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-72 h-72 bg-brand-light/30 rounded-full blur-3xl"></div>
       </div>
       
-      <div className="container mx-auto px-4 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 w-full">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-block w-16 h-1 bg-gradient-to-r from-brand-medium-dark to-brand-medium mb-6"></div>
           <h2 className="mb-4 text-gray-900 text-3xl md:text-4xl">Pilares para o seu Bem-Estar</h2>

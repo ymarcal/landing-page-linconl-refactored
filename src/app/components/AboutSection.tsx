@@ -1,7 +1,7 @@
 export function AboutSection() {
   return (
-    <section id="atuacoes" className="py-25 md:py-32 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+    <section id="atuacoes" className="h-full bg-white flex items-center">
+      <div className="container mx-auto px-4 lg:px-8 w-full">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-7xl mx-auto">
           <div className="text-gray-900">
             <div className="inline-block w-16 h-1 bg-gradient-to-r from-brand-medium-dark to-brand-medium mb-6"></div>

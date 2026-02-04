@@ -18,12 +18,12 @@ export function TestimonialsSection() {
   ];
 
   return (
-    <section className="py-25 md:py-32 bg-gradient-to-br from-brand-dark to-brand-medium-dark text-white relative overflow-hidden">
+    <section className="h-full bg-gradient-to-br from-brand-dark to-brand-medium-dark text-white relative overflow-hidden flex items-center">
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl"></div>
       
-      <div className="container mx-auto px-4 lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 w-full">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <div className="inline-block w-16 h-1 bg-white/30 mb-6"></div>
           <h2 className="mb-4 text-white text-3xl md:text-4xl">O que dizem meus pacientes</h2>

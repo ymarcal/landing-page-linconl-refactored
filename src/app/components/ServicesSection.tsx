@@ -1,7 +1,7 @@
 export function ServicesSection() {
   return (
-    <section id = 'terapia-online' className="py-25 md:py-32 bg-white">
-      <div className="container mx-auto px-4 lg:px-8">
+    <section id = 'terapia-online' className="h-full bg-white flex items-center">
+      <div className="container mx-auto px-4 lg:px-8 w-full">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-7xl mx-auto">
           <div className="relative order-2 md:order-1">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-light/50 to-brand-medium/30 rounded-3xl blur-2xl"></div>

@@ -17,7 +17,7 @@ export function HeroSection() {
   return (
     <section
       id="inicio"
-      className="relative bg-gradient-to-br from-brand-light/20 via-white to-brand-light/10 py-25 md:py-32 overflow-hidden"
+      className="relative bg-gradient-to-br from-brand-light/20 via-white to-brand-light/10 h-full overflow-hidden flex items-center"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: 'cover',
@@ -29,7 +29,7 @@ export function HeroSection() {
       <div className="absolute top-0 right-0 w-96 h-96 bg-brand-light/30 rounded-full blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-brand-medium/20 rounded-full blur-3xl"></div>
 
-      <div className="container mx-auto px-4 lg:h-screen lg:flex lg:items-center lg:justify-center lg:px-8 relative z-10">
+      <div className="container mx-auto px-4 lg:px-8 relative z-10 w-full">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-16 items-center max-w-7xl mx-auto">
           <div className="order-2 md:order-1">
             <div className="relative w-full max-w-md mx-auto">
