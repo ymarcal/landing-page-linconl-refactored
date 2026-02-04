@@ -20,7 +20,7 @@ export function AboutSection() {
               // src="https://images.unsplash.com/photo-1766250533363-01b974b2ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGVyYXB5JTIwc2Vzc2lvbiUyMG5vdGVib29rfGVufDF8fHx8MTc2NjY4MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
               src={aboutImage}
               alt="Sessão de terapia"
-              className="relative rounded-3xl shadow-2xl w-full h-auto object-cover ring-1 ring-brand-dark/5"
+              className="relative rounded-3xl shadow-2xl w-full h-auto object-cover ring-1 ring-brand-dark/5 transition-transform duration-500 hover:scale-110"
             />
           </div>
         </div>
