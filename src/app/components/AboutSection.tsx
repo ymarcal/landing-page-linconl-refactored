@@ -14,7 +14,7 @@ export function AboutSection() {
             </p>
           </div>
           
-          <div className="relative max-w-md mx-auto md:mx-7">
+          <div className="relative max-w-[30rem] mx-auto md:mx-10">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-light/50 to-brand-medium/30 rounded-3xl blur-2xl"></div>
             <img
               // src="https://images.unsplash.com/photo-1766250533363-01b974b2ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGVyYXB5JTIwc2Vzc2lvbiUyMG5vdGVib29rfGVufDF8fHx8MTc2NjY4MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
