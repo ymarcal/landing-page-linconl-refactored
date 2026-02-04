@@ -9,7 +9,7 @@ export function ServicesSection() {
             <img
               src={onlineImage}
               alt="Bem-estar e equilíbrio"
-              className="relative rounded-3xl shadow-2xl w-full h-auto ring-1 ring-brand-dark/5"
+              className="block w-full h-full object-cover rounded-3xl transition-transform duration-500 hover:scale-110"
             />
           </div>
           
