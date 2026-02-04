@@ -1,14 +1,16 @@
+// import onlineImage from "./figma/lincoln-desenho.png";
+import onlineImage from "./figma/trace.svg";
+
 export function ServicesSection() {
   return (
     <section id = 'terapia-online' className="py-25 md:py-32 bg-white">
       <div className="container mx-auto px-4 lg:px-8">
         <div className="grid md:grid-cols-2 gap-12 lg:gap-20 items-center max-w-7xl mx-auto">
-          <div className="relative order-2 md:order-1">
-            <div className="absolute -inset-4 bg-gradient-to-br from-brand-light/50 to-brand-medium/30 rounded-3xl blur-2xl"></div>
+          <div className="relative order-2 md:order-1 max-w-[30rem] mx-auto md:mx-7">
             <img
-              src="https://images.unsplash.com/photo-1722094250550-4993fa28a51b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZWFjZWZ1bCUyMG1lZGl0YXRpb24lMjB3ZWxsbmVzc3xlbnwxfHx8fDE3NjY2NDg5MTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+              src={onlineImage}
               alt="Bem-estar e equilíbrio"
-              className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/3] ring-1 ring-brand-dark/5"
+              className="relative rounded-3xl shadow-2xl w-full h-auto ring-1 ring-brand-dark/5"
             />
           </div>
           
@@ -17,8 +19,7 @@ export function ServicesSection() {
             <h2 className="mb-6 text-gray-900 text-3xl md:text-4xl">Terapia Online</h2>
             
             <p className="mb-8 text-gray-700 text-lg leading-relaxed">
-              As sessões online oferecem a mesma qualidade e eficácia das sessões presenciais, 
-              com a vantagem de você poder realizar de onde estiver, com total conforto e segurança.
+            As sessões online tem suas peculiaridades se comparadas com as presenciais, com a vantagem de você poder realizar de onde estiver, com total conforto e segurança.
             </p>
             
             <ul className="space-y-4">
