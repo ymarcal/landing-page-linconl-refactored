@@ -1,3 +1,5 @@
+import aboutImage from "./figma/lincoln-p2.png";
+
 export function AboutSection() {
   return (
     <section id="atuacoes" className="py-25 md:py-32 bg-white">
@@ -15,7 +17,8 @@ export function AboutSection() {
           <div className="relative">
             <div className="absolute -inset-4 bg-gradient-to-br from-brand-light/50 to-brand-medium/30 rounded-3xl blur-2xl"></div>
             <img
-              src="https://images.unsplash.com/photo-1766250533363-01b974b2ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGVyYXB5JTIwc2Vzc2lvbiUyMG5vdGVib29rfGVufDF8fHx8MTc2NjY4MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              // src="https://images.unsplash.com/photo-1766250533363-01b974b2ba32?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0aGVyYXB5JTIwc2Vzc2lvbiUyMG5vdGVib29rfGVufDF8fHx8MTc2NjY4MDU2M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+              src={aboutImage}
               alt="Sessão de terapia"
               className="relative rounded-3xl shadow-2xl w-full object-cover aspect-[4/3] ring-1 ring-brand-dark/5"
             />
