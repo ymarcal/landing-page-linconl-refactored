@@ -1,4 +1,5 @@
-import heroImage from "./figma/d96bdb2c0eabc63d53c8e52be65be0138b2d49de.png";
+// import heroImage from "./figma/d96bdb2c0eabc63d53c8e52be65be0138b2d49de.png";
+import heroImage from "./figma/lincoln-p1.png";
 import bgImage from "./figma/0e490af96632d3edf00819e1544d84d37cddbd5e.png";
 import { useState } from 'react';
 
